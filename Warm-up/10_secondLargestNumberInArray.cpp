@@ -1,4 +1,6 @@
-// 10_secondLargestNumberInArray.cpp
+// there many corner cases we need to remember 
+//1. if array is empty,  2. if array have duplicate value,
+// 3. if array have only one value , 4. if array have negative number any other 
 #include<iostream>
 #include<climits>
 using namespace std;
@@ -10,7 +12,7 @@ int secondLargestNumberInArray(int arr[],int len){
     if(arr[i]>firstLarget){
         secondLargest = firstLarget;
         firstLarget = arr[i];
-    }else if(arr[i]>secondLargest){
+    }else if(arr[i]>secondLargest && arr[i] != firstLarget){//remove duplication
         secondLargest = arr[i];
     }
 }
