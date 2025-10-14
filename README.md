@@ -1,4 +1,7 @@
 # practise-dsa
+
+# Section 1 - Warm up
+
 Q1 Sum of two integer 
 
 02 Sqaure of number
@@ -40,3 +43,20 @@ Q1 Sum of two integer
 20 Palidrome
 
 21 Reverse Integer
+
+<!-- ------------------------------------------------------------------------------------------------ -->
+
+# Section 2 - Time space complexicity
+
+# section 3 - Array 
+
+1 Remove duplicates
+
+2 Remove element
+
+3 Reverse String
+
+4 Best time to sell stock 
+
+5 Merge two sorted array
+
